@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commercial-loan-risk-scoring"
+version = "0.1.0"
+description = "A transparent baseline risk scoring model for commercial loan applications."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+license = { text = "MIT" }
+keywords = ["credit-risk", "commercial-lending", "loan-scoring", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.scripts]
+loan-risk-score = "loan_risk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

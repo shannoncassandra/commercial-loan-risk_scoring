@@ -1,0 +1,6 @@
+application_id,dscr,ltv,business_credit_score,years_in_business,liquidity_ratio,net_profit_margin,delinquencies_24m,industry_risk
+CL-1001,1.62,0.48,88,12,2.10,0.18,0,low
+CL-1002,1.18,0.72,68,4,1.20,0.06,1,medium
+CL-1003,0.92,0.94,52,1.5,0.65,-0.03,3,high
+CL-1004,1.34,0.61,79,7,1.70,0.11,0,medium
+CL-1005,1.05,0.86,61,2,0.90,0.02,2,high
