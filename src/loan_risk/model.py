@@ -202,7 +202,7 @@ def _reason_codes(
     application: LoanApplication, feature_risks: dict[str, float]
 ) -> tuple[str, ...]:
     labels = {
-        "dscr": "weak debt service coverage",
+        "dscr": "<3weak debt service coverage",
         "ltv": "high loan-to-value",
         "business_credit_score": "lower business credit score",
         "years_in_business": "limited operating history",
